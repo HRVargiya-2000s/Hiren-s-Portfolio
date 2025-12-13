@@ -269,6 +269,21 @@
   }
 }
 
+/* Desktop and above - Keep 2 column */
+@media (min-width: 1025px) {
+  .home-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .home-image-section {
+    order: 2;
+  }
+
+  .home-content {
+    order: 1;
+  }
+}
+
 /* Tablet and below */
 @media (max-width: 1024px) {
   .home {
