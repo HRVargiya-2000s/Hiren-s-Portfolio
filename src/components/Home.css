@@ -49,9 +49,7 @@
   z-index: 1;
   margin: 0 auto;
   row-gap: 1.5rem;
-}
   padding: 0 2rem;
-}
 }
 
 .home-content {
@@ -270,9 +268,26 @@
 }
 
 /* Desktop and above - Keep 2 column */
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
   .home-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 2.5rem;
+  }
+
+  .home-image-section {
+    order: 2;
+    height: auto;
+  }
+
+  .home-content {
+    order: 1;
+  }
+}
+
+/* Laptop - 2 column */
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .home-container {
+    grid-template-columns: 1fr 1fr !important;
   }
 
   .home-image-section {
@@ -291,7 +306,7 @@
   }
 
   .home-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     gap: 3rem;
   }
 
