@@ -3,7 +3,14 @@ import { useState } from 'react'
 import './Navigation.css'
 
 export default function Navigation({ activeSection, setActiveSection }) {
-  const navItems = ['home', 'projects', 'skills', 'hackathons', 'experience', 'opensource']
+  const navItems = [
+    { key: 'home', label: 'Home' },
+    { key: 'projects', label: 'Projects' },
+    { key: 'skills', label: 'Skills' },
+    { key: 'hackathons', label: 'Hackathons' },
+    { key: 'experience', label: 'Experience' },
+    { key: 'opensource', label: 'OpenSource' }
+  ]
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [isHoveringLogo, setIsHoveringLogo] = useState(false)
 
@@ -63,15 +70,15 @@ export default function Navigation({ activeSection, setActiveSection }) {
         <ul className="nav-links">
           {navItems.map((item) => (
             <motion.li
-              key={item}
+              key={item.key}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
               <button
-                onClick={() => setActiveSection(item)}
-                className={`nav-link ${activeSection === item ? 'active' : ''}`}
+                onClick={() => setActiveSection(item.key)}
+                className={`nav-link ${activeSection === item.key ? 'active' : ''}`}
               >
-                {item.charAt(0).toUpperCase() + item.slice(1)}
+                {item.label}
               </button>
             </motion.li>
           ))}
