@@ -231,8 +231,68 @@
   }
 }
 
-/* Responsive Design */
+/* TABLET - 1024px and below */
+@media (max-width: 1024px) {
+  .opensource {
+    padding: 3rem 2rem;
+  }
 
+  .opensource-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .repo-card {
+    padding: 1.2rem;
+  }
+}
+
+/* MOBILE - 768px and below */
+@media (max-width: 768px) {
+  .opensource {
+    padding: 2rem 1.5rem;
+  }
+
+  .opensource-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .repo-card {
+    padding: 1rem;
+  }
+
+  .repo-card h3 {
+    font-size: 1rem;
+  }
+
+  .repo-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* SMALL MOBILE - 480px and below */
+@media (max-width: 480px) {
+  .opensource {
+    padding: 1.5rem 1rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.8em;
+  }
+
+  .repo-card {
+    padding: 0.9rem;
+  }
+
+  .repo-card h3 {
+    font-size: 0.9rem;
+  }
+
+  .repo-card p {
+    font-size: 0.85rem;
+  }
+}
 
 
 

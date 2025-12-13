@@ -209,8 +209,70 @@
   }
 }
 
-/* Responsive Design */
+/* TABLET - 1024px and below */
+@media (max-width: 1024px) {
+  .experience {
+    padding: 3rem 2rem;
+  }
 
+  .timeline {
+    gap: 1.5rem;
+  }
+
+  .timeline-item {
+    padding: 1.2rem;
+  }
+}
+
+/* MOBILE - 768px and below */
+@media (max-width: 768px) {
+  .experience {
+    padding: 2rem 1.5rem;
+  }
+
+  .timeline {
+    gap: 1rem;
+  }
+
+  .timeline-item {
+    padding: 1rem;
+  }
+
+  .timeline-item h3 {
+    font-size: 1rem;
+  }
+
+  .timeline-item p {
+    font-size: 0.9rem;
+  }
+}
+
+/* SMALL MOBILE - 480px and below */
+@media (max-width: 480px) {
+  .experience {
+    padding: 1.5rem 1rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.8em;
+  }
+
+  .timeline {
+    gap: 0.8rem;
+  }
+
+  .timeline-item {
+    padding: 0.9rem;
+  }
+
+  .timeline-item h3 {
+    font-size: 0.9rem;
+  }
+
+  .timeline-item p {
+    font-size: 0.85rem;
+  }
+}
 
 
 

@@ -192,8 +192,64 @@
   }
 }
 
-/* Responsive Design */
+/* TABLET - 1024px and below */
+@media (max-width: 1024px) {
+  .hackathons {
+    padding: 3rem 2rem;
+  }
 
+  .hackathons-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hackathon-card {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+/* MOBILE - 768px and below */
+@media (max-width: 768px) {
+  .hackathons {
+    padding: 2rem 1.5rem;
+  }
+
+  .hackathon-card {
+    padding: 1.2rem;
+  }
+
+  .hackathon-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .hackathon-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* SMALL MOBILE - 480px and below */
+@media (max-width: 480px) {
+  .hackathons {
+    padding: 1.5rem 1rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.8em;
+  }
+
+  .hackathon-card {
+    padding: 1rem;
+  }
+
+  .hackathon-card h3 {
+    font-size: 0.95rem;
+  }
+
+  .hackathon-card p {
+    font-size: 0.85rem;
+  }
+}
 
 
 

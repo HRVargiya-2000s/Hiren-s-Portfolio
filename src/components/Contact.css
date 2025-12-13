@@ -190,8 +190,62 @@
   }
 }
 
-/* Responsive Design */
+/* TABLET - 1024px and below */
+@media (max-width: 1024px) {
+  .contact {
+    padding: 3rem 2rem;
+  }
 
+  .contact-form {
+    max-width: 600px;
+  }
+}
+
+/* MOBILE - 768px and below */
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem 1.5rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1rem;
+  }
+
+  .contact-btn {
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+/* SMALL MOBILE - 480px and below */
+@media (max-width: 480px) {
+  .contact {
+    padding: 1.5rem 1rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.8em;
+  }
+
+  .contact-form {
+    gap: 0.8rem;
+  }
+
+  .form-group {
+    gap: 0.3rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.6rem;
+    font-size: 0.95rem;
+  }
+
+  .contact-btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9em;
+  }
+}
 
 
 

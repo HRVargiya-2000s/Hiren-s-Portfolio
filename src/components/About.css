@@ -160,11 +160,62 @@
   }
 }
 
-/* Responsive Design */
+/* TABLET - 1024px and below */
+@media (max-width: 1024px) {
+  .about {
+    padding: 3rem 2rem;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image {
+    height: 350px;
+  }
+}
+
+/* MOBILE - 768px and below */
+@media (max-width: 768px) {
+  .about {
+    padding: 2rem 1.5rem;
+  }
+
+  .about-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .about-content p {
+    font-size: 0.95rem;
+  }
+
+  .about-image {
+    height: 300px;
+  }
+}
+
+/* SMALL MOBILE - 480px and below */
+@media (max-width: 480px) {
+  .about {
+    padding: 1.5rem 1rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.8em;
+  }
+
+  .about-content h3 {
+    font-size: 1rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+  }
+
+  .about-image {
+    height: 250px;
+  }
+}
 
 
-
-
-
-
-/* Extra small devices */
+/* Extra small devices */

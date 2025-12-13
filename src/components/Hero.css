@@ -184,12 +184,75 @@
   }
 }
 
-/* Tablet and below */
+/* TABLET - 1024px and below */
+@media (max-width: 1024px) {
+  .hero {
+    padding: 2.5rem 1.5rem;
+  }
 
+  .hero-container {
+    gap: 2rem;
+  }
 
-/* Tablet */
+  .hero-content h2 {
+    font-size: 2.2em;
+  }
 
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
 
-/* Mobile */
+/* MOBILE - 768px and below */
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem;
+  }
 
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-content h2 {
+    font-size: 1.8em;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .hero-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* SMALL MOBILE - 480px and below */
+@media (max-width: 480px) {
+  .hero {
+    padding: 1.5rem 1rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.5em;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .hero-button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9em;
+  }
+
+  .scroll-indicator {
+    font-size: 0.8rem;
+  }
+}
 
