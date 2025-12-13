@@ -1,0 +1,159 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: rgba(8, 6, 11, 0.3);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 212, 255, 0.15);
+  z-index: 1000;
+  box-shadow: 0 8px 32px rgba(0, 212, 255, 0.05);
+}
+
+.nav-container {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: 900;
+  cursor: pointer;
+  letter-spacing: 2px;
+  user-select: none;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.logo-3d {
+  background: linear-gradient(135deg, #00d4ff, #ff006e, #8338ec, #00d4ff);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient 8s ease infinite;
+  will-change: transform;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+}
+
+.logo-text {
+  display: inline-block;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  align-items: center;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.95em;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+  transition: color 0.3s ease;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -8px;
+  left: 0;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: var(--primary);
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Tablet and below */
+@media (max-width: 1024px) {
+  .nav-container {
+    padding: 0 30px;
+  }
+
+  .nav-links {
+    gap: 30px;
+  }
+
+  .nav-link {
+    font-size: 0.9em;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .navbar {
+    height: 70px;
+  }
+
+  .nav-container {
+    padding: 0 20px;
+  }
+
+  .logo {
+    font-size: 1.2em;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav-link {
+    font-size: 0.8em;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .navbar {
+    height: 60px;
+  }
+
+  .nav-container {
+    padding: 0 15px;
+  }
+
+  .logo {
+    font-size: 1em;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-link {
+    font-size: 0.7em;
+  }
+}

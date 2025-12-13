@@ -1,0 +1,25 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--dark-bg);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Prevent body horizontal scroll */
+body {
+  overflow-x: hidden;
+}
+
+/* Ensure all sections span full width */
+section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
