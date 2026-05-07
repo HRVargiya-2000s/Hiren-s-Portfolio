@@ -108,19 +108,18 @@ export default function Home({ setActiveSection }) {
           initial="hidden"
           animate="visible"
         >
-          <motion.div 
+          <div 
             className="profile-image-wrapper"
-            {...floatingAnimation}
           >
             <div className="image-frame">
               <img 
-                src="/profile-image.jpg" 
+                src="/profile-image.jpeg" 
                 alt="Hiren Vargiya" 
                 className="profile-image"
               />
               <div className="image-glow"></div>
             </div>
-          </motion.div>
+            </div>
         </motion.div>
       </motion.div>
     </section>

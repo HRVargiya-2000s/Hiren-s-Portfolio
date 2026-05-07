@@ -35,29 +35,29 @@ export default function Projects() {
     },
     {
       id: 3,
-      title: 'StudyHub',
-      subtitle: 'Classroom Study Portal',
-      description: 'React based Classroom Study Portal',
-      tech: ['React.js', 'Tailwind CSS', 'Material UI', 'Firebase'],
+      title: 'ShikshanSetu',
+      subtitle: 'Unified Academic Monitoring & NBA Reporting System',
+      description: 'Centralized Academic Management Platform',
+      tech: ['Web-Based Platform', 'Mobile-Enabled', 'BLE', 'phpMyAdmin', 'LLM API', 'Cloud Servers'],
       color: 'gradient-cyan',
-      github: 'https://github.com/HRVargiya-2000s/StudyHub.git',
-      features: ['Teacher Dashboard', 'Material Upload', 'Real-time Updates', 'Responsive Design', 'Firebase Auth'],
-      fullDescription: 'StudyHub aims to provide a secure, collaborative platform where students can share, organize, and access academic study materials in real time, while ensuring proper access control based on user roles and class membership.',
-      keyFeatures: ['Secure User Authentication', 'Centralized Material Management', 'Cloud File Storage & Retrieval', 'Class-Based Data Segregation', 'Search and Category-Based Filtering'],
-      techStack: 'React.js, Tailwind CSS, Material UI, Firebase'
+      github: 'https://github.com/HRVargiya-2000s/C2C-108.git',
+      features: ['Attendance Tracking via QR/RFID/GPS', 'CO-PO Mapping & Attainment', 'Real-Time Analytics Dashboard', 'NBA-Ready Reports', 'Document Repository'],
+      fullDescription: 'ShikshanSetu is a centralized digital platform designed to streamline student academic data management including attendance, internal assessments, and course outcomes. The system automates CO-PO mapping and attainment calculation to support NBA accreditation processes. It provides real-time analytics dashboards, simplified data entry, and maintains data integrity across departments while supporting decision-making for institutional growth.',
+      keyFeatures: ['Centralized Student Data Management', 'Automated Attendance Tracking via BLE', 'Simplified Entry & Analysis of Internal Assessment Marks', 'Automatic CO-PO Attainment Calculation', 'NBA-Ready Reports Generated Instantly', 'Repository for Academic Documents & Records'],
+      techStack: 'Web-Based & Mobile Platform, BLE, phpMyAdmin, Cloud/On-Premise Servers, LLM API key'
     },
     {
       id: 4,
-      title: 'LDBuddy',
-      subtitle: 'College Chatbot Assistant',
-      description: 'A Chatbot for LDCE related Query.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'LocalStorage', 'JSON'],
+      title: 'Document Verification System',
+      subtitle: 'AI-Based Document Detection & Validation',
+      description: 'Smart Document Processing for Admission',
+      tech: ['Python', 'Tabula', 'Google Vision', 'QR Validation', 'SQLite', 'Flask', 'HTML/CSS'],
       color: 'gradient-pink',
-      github: 'https://github.com/HRVargiya-2000s/LDBuddy.git',
-      features: ['FAQ Database', 'Chat History', 'Drag & Drop', 'Profile Storage', 'Export Chat'],
-      fullDescription: 'LDBuddy aims to provide a simple, offline-friendly chatbot-style interface that helps students quickly access college-related information for LDCE and GTU without relying on any backend or server. The project focuses on fast access to FAQs, exam information, and important links using a clean chat-based UI built entirely with frontend technologies. It is designed for local use, easy customization, and academic or portfolio demonstration purposes.',
-      keyFeatures: ['Profile Storage Using localStorage', 'FAQ-JSON-Based Question Answering', 'Session-Based Multi-Chat Handling', 'Export chat'],
-      techStack: 'HTML, CSS, JS, LocalStorage, JSON data'
+      github: 'https://github.com/HRVargiya-2000s/C2C-ACPC-Doc-Ver.git',
+      features: ['PDF to Excel Conversion', 'Automated QR Validation', 'Document Authentication', 'Status Dashboard', 'Scalable Architecture'],
+      fullDescription: 'Document Verification System is an AI-based solution for detecting fake documents and automating the validation of student admission documents. The system streamlines the admission process by automatically extracting information from uploaded PDFs, validating document authenticity through QR code verification, and generating structured reports. It significantly reduces manual workload, ensures accuracy, and increases transparency in the admission process.',
+      keyFeatures: ['PDF to Structured Excel Conversion', 'Automated QR Code-Based Document Validation', 'OCR-Powered Information Extraction', 'Field-Wise Validation Dashboard & Status Tracker', 'Prototype Scalable for Institute-Wide Deployment', 'Authentication & Authenticity Verification'],
+      techStack: 'Python, PyPDF2, Tabula, OCR APIs, QR Validation, MySQL, Django/Flask, Node.js'
     }
   ]
 
@@ -88,7 +88,7 @@ export default function Projects() {
         >
           <h2>My Projects</h2>
           <div className="header-line"></div>
-          <p className="section-subtitle">Showcasing my best work and technical expertise</p>
+          <p className="section-subtitle">The work which I completed till now</p>
         </motion.div>
 
         <motion.div 

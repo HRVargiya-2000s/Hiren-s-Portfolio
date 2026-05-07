@@ -27,14 +27,14 @@ export default function OpenSource() {
       type: 'Certification Program',
       title: 'Google Cloud Arcade Facilitator Program',
       organization: 'Google Cloud',
-      period: '2025 Cohort-2 (Pending Completion)',
+      period: 'Aug - Dec (2025 Cohort-2)',
       description: 'Participating in the Google Cloud Arcade Facilitator Program to learn cloud technologies and help others in the community understand cloud computing fundamentals.',
       technologies: ['Google Cloud', 'Cloud Computing', 'Infrastructure'],
       achievements: [
         'Learning Google Cloud fundamentals',
         'Completing hands-on labs and quests',
         'Facilitating learning for peer students',
-        'Certificate pending upon completion'
+        'Certificate upon completion'
       ],
       icon: <FontAwesomeIcon icon={faCloud} />,
       color: 'linear-gradient(135deg, #8338ec, #ff006e)'

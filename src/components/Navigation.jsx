@@ -7,7 +7,6 @@ export default function Navigation({ activeSection, setActiveSection }) {
     { key: 'home', label: 'Home' },
     { key: 'projects', label: 'Projects' },
     { key: 'skills', label: 'Skills' },
-    { key: 'hackathons', label: 'Hackathons' },
     { key: 'experience', label: 'Experience' },
     { key: 'opensource', label: 'OpenSource' }
   ]

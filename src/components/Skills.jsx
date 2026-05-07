@@ -10,6 +10,7 @@ export default function Skills() {
         { name: 'CSS' },
         { name: 'JavaScript' },
         { name: 'React.js' },
+        { name: 'React Native' },
         { name: 'Tailwind CSS' },
         { name: 'Framer Motion' }
       ]
@@ -42,7 +43,8 @@ export default function Skills() {
         { name: 'Java' },
         { name: 'Python' },
         { name: 'JavaScript' },
-        { name: 'PHP' }
+        { name: 'PHP' },
+        { name: 'Flask' }
       ]
     },
     {

@@ -20,6 +20,21 @@ export default function Experience() {
       icon: <FontAwesomeIcon icon={faGraduationCap} />,
       color: 'linear-gradient(135deg, #ff006e, #00d4ff)'
     }
+    ,
+    {
+      id: 2,
+      title: 'Campus Lead',
+      company: 'Open Source Global',
+      period: 'Dec 2025 - Feb 2026',
+      description: 'Led the campus chapter for Open Source Global, organizing workshops, onboarding contributors, and coordinating community activities.',
+      responsibilities: [
+        'Organized open-source workshops and meetups',
+        'Mentored students on contribution workflows',
+        'Coordinated outreach and campus registrations'
+      ],
+      icon: <FontAwesomeIcon icon={faGraduationCap} />,
+      color: 'linear-gradient(135deg, #00d4ff, #8338ec)'
+    }
   ]
 
   const containerVariants = {
@@ -57,20 +72,15 @@ export default function Experience() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          {experiences.map((exp, index) => (
+          {experiences.map((exp) => (
             <motion.div
               key={exp.id}
               className="timeline-item"
               variants={itemVariants}
             >
-              <div className="timeline-marker">
-                <div className="marker-circle">{exp.icon}</div>
-                {index !== experiences.length - 1 && <div className="timeline-line"></div>}
-              </div>
-
               <motion.div
                 className="experience-card"
-                whileHover={{ x: 10 }}
+                whileHover={{ y: -8 }}
                 transition={{ duration: 0.3 }}
               >
                 <div className="exp-header">

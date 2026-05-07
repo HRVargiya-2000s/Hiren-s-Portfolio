@@ -6,14 +6,15 @@ import "./About.css"
 export default function About() {
   const aboutPoints = [
     "IT Engineering student at L.D. College of Engineering, Ahmedabad",
-    "Currently in 5th semester (Pre-Final Year)",
+    "Currently in 6th semester (Pre-Final Year)",
     "Passionate about web development and cloud technologies",
     "Front-End developer with React, Firebase, and cloud experience",
+    "TPO coordinator @ T&P cell LDCE",
     "Active in hackathons and open-source communities",
   ]
 
   const stats = [
-    { value: "8.06", label: "Current CPI" },
+    { value: "8.13", label: "CGPA" },
     { value: "4+", label: "Projects Completed" },
     { value: "2027", label: "Expected Graduation" },
   ]
@@ -43,7 +44,7 @@ export default function About() {
         >
           <h2>About Me</h2>
           <div className="header-line"></div>
-          <p className="section-subtitle">Learning, Growing, and Building Amazing Things</p>
+          <p className="section-subtitle">Here some information about myself</p>
         </motion.div>
 
         <motion.div

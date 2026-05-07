@@ -25,7 +25,7 @@ export default function Footer() {
     },
     { 
       label: 'Phone', 
-      link: 'tel:+917841250394',
+      link: 'tel:+918141375970',
       icon: faPhone
     },
   ]
@@ -57,7 +57,7 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <p className="copyright">
-          &copy; {currentYear} Hiren Vargiya. All rights reserved. | Designed & Developed with passion
+          &copy; {currentYear} Hiren Vargiya. | Designed & Developed with passion
         </p>
       </div>
     </footer>
