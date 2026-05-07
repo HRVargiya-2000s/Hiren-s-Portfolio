@@ -77,7 +77,7 @@ export default function Home({ setActiveSection }) {
           </motion.h1>
 
           <motion.p variants={itemVariants} className="home-subtitle-text">
-            Passionate IT engineering student with strong skills in web development and cloud tools. Seeking an opportunity to contribute to a dynamic organization and enhance real-world development experience.
+            Crafting <span className="accent">modern web, mobile, and AI</span> experiences.
           </motion.p>
 
           <motion.div variants={itemVariants} className="home-buttons">
