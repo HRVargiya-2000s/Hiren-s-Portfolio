@@ -25,7 +25,7 @@ export default function Footer() {
     },
     { 
       label: 'Phone', 
-      link: 'tel:+918141375970',
+      link: 'tel:8141375970',
       icon: faPhone
     },
   ]
